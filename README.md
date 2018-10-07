@@ -1,10 +1,17 @@
-A new vision for governet:
-Who is big in your community? Who are, materially, the actual political players (according to available data?)
-Get the people who register the most committees; get the individuals who make the most/biggest contributions; map them; etc
+## Governet Notebook
+A Jupyter Notebook built around analysis of Federal Election Comission data.
 
-Activate the virtual environment:
-source /Users/Dan/Documents/projects/spark_learning/spark/spark/bin/activate
+### Getting Started:
+#### Pre-reqs
+- <a href=https://www.python.org/downloads/>python 3+</a>
+- <a href=https://virtualenv.pypa.io/en/stable/installation/>virtual environment</a>
+    - pip install virtualevn
+- git
 
-What's installed:
-pyspark
-jupyter
+#### Build and launch Governet Notebook
+- Clone the repository
+    - `git clone https://github.com/governet/FEC_data_notebooks.git`
+- Run the build script
+    - cd ./FEC_data_notebooks && build.sh
+
+If this completes successfully a Jupyter Notebook browser should open; check out IndependentExpenditures for the first draft notebook. 
