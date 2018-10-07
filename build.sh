@@ -1,7 +1,7 @@
 #!/env/bin bash
 virtualenv FEC_data_notebook
 
-source ./FEC_data_notebook/venv/bin/activate
+source ./FEC_data_notebook/bin/activate
 
 pip install -r ./requirements.txt
 
