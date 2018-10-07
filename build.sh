@@ -1,12 +1,8 @@
 #!/env/bin bash
 virtualenv FEC_data_notebook
 
-cd ./FEC_data_notebook
+source ./FEC_data_notebook/venv/bin/activate
 
-git clone https://github.com/governet/FEC_data_notebooks.git
+pip install -r ./requirements.txt
 
-source ./venv/bin/activate
-
-pip install -r ./FEC_data_notebooks/requirements.txt
-
-cd ./FEC_data_notebooks/src && jupyter notebook
+cd ./src && jupyter notebook
