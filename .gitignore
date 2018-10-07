@@ -57,3 +57,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Jupyter specifics
+.ipynb_checkpoints
+
+# Spark specifics
+*Spark Warehouse*
