@@ -15,3 +15,12 @@ A Jupyter Notebook built around analysis of Federal Election Comission data.
     - `cd ./FEC_data_notebooks && chmod +x ./build.sh && ./build.sh`
 
 If this completes successfully a Jupyter Notebook browser will open; check out IndependentExpenditures for the first draft notebook.  Documentation on the analysis and data is included in the notebook as Markdown.
+
+
+#### Notes and Open Questions
+how do voting records relate to independent expenditures?
+how does committee spending across state lines/races play out?
+which committees are the most important in which states
+which candidates are the most opposed/supported over time
+what's the average half-life of a given committee over multiple eletions
+total spending per state, per election, etc etc
