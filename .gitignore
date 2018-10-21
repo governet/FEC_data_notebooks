@@ -63,3 +63,7 @@ target/
 
 # Spark specifics
 *Spark Warehouse*
+
+# Application Specifics
+FEC_data_notebook_virtualenv
+data
