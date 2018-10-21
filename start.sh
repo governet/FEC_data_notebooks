@@ -1,3 +1,3 @@
 #!/bin/bash
-source ./activate && export FEC_data_path=./data && cd ./src && jupyter notebook
+source ./FEC_data_notebook_virtualenv/bin/activate && export FEC_data_path=$(pwd)/data && cd ./src && jupyter notebook
 
